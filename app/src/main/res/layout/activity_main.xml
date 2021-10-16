@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="cursive"
+        android:text="Bawabu app"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btnIn"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="-129dp"
+        android:background="@color/white"
+        android:text="checkin" />
+
+    <Button
+        android:id="@+id/bttnOut"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="-129dp"
+        android:background="@color/white"
+        android:text="checkout" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="1475dp"
+        android:layout_marginBottom="-211dp"
+        android:background="@color/white"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/daily"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="746dp"
+        android:layout_marginBottom="-210dp"
+        android:background="@color/white"
+        android:text="Daily Report" />
+
+    <Button
+        android:id="@+id/incident"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-230dp"
+        android:background="@color/white"
+        android:text="Incident Recording" />
+
+    <Button
+        android:id="@+id/repo"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="1461dp"
+        android:layout_marginBottom="-318dp"
+        android:background="@color/white"
+        android:text="All Reports" />
+
+    <Button
+        android:id="@+id/tenant"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="-316dp"
+        android:background="@color/white"
+        android:text="checkout" />
+
+</RelativeLayout>
