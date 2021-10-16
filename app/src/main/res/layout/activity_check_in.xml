@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image"
         android:layout_width="131dp"
         android:layout_height="142dp"
         app:srcCompat="@drawable/ic_baseline_fingerprint_24"
@@ -59,7 +59,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="151dp"
-            android:hint="hint" />
+            android:hint="purpose" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <EditText
