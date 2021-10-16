@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/background.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_check_in.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13768115942028986" />
       </map>
     </option>
